@@ -1,0 +1,548 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+
+}
+.nav_list{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    list-style: none;   
+}
+
+.home_section{
+    background-image: url(./img/hero4.png);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+    background-position: center;
+    
+}
+h2{
+    color: darkcyan;
+    margin-bottom: 1rem;
+}
+.con1{
+    margin-top: 10rem;
+    padding-left: 0.75rem;
+}
+.sho{
+    background-image: url(./img/button.png);
+    width: 200px;
+    height: 50px;
+    background-color: transparent;
+    border: 1rem;
+    font-size: large;
+    color: darkcyan;
+}
+.shop_section{
+    margin-top: 2rem;
+    
+
+}
+.con2{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-left: 4rem;
+   padding-right: 4rem;
+   flex-wrap: wrap;
+}
+.shop1 h6{
+    color: darkcyan;
+    margin-top: 1rem;
+    padding-left: 10px;
+    padding-right: 10px; 
+    font-size: small;
+    
+}
+.shop1{
+    width: 100px;
+    border-style: solid;
+    color: lightgrey;
+    text-align: center;
+    padding: 12px 12px;
+
+}
+.shop1 img{
+    width: 80px;
+    height: 50px;
+}
+.he{
+    text-align: center;
+    margin-top: 2rem;
+    color: black;
+}
+.su{
+    text-align: center;
+    font-size: xx-small;
+    color: gray;
+}
+span{
+    margin-left: 10px;
+    color: gray;
+    
+}
+.free{
+    background-color: burlywood;
+    background-size: cover;
+}
+.online{
+    background-color: lightgreen;
+    background-size: cover;
+}
+.money{
+    background-color: skyblue;
+    background-size: cover;
+
+}
+.promotion{
+    background-color: skyblue;
+    background-size: cover;
+}
+.happy{
+    background-color: burlywood;
+    background-size: cover;
+}
+.support{
+    background-color: burlywood;
+    background-size: cover;
+}
+
+  
+
+.shirt1 img{
+    width: 250px;
+    height: 200px;
+    margin: 4px 4px 4px 4px;
+}
+.shirt1{
+    border: solid;
+    width: 260px;
+    border-color:rgba(255, 68, 0, 0.63);
+    border-radius: 1rem;
+    height: 350px;
+    margin-bottom: 1rem;
+    
+}
+h5{
+    font-size: smaller;
+    margin-left: 10px;
+}
+.star{
+    padding-left: 10px;
+    color: gold;
+    margin-bottom: 2rem;
+}
+.basket{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.basket h4{
+    color: green;
+    font-size: large;
+}
+.basket{
+    display: flex;
+    margin-top: 1rem;
+}
+
+.products{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 4rem;
+    padding-right: 4rem; 
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    flex-wrap: wrap;      
+}
+
+.ban{
+    background-image: url(./img/banner/b2.jpg);
+    background-repeat: no-repeat;
+    color: white; 
+    background-size: 100%; 
+    width: 100%;
+    padding-top: 4rem;
+    margin-bottom: 1rem;
+    height: 200px;
+    
+
+}
+.bt{
+    text-align: center;
+    line-height: 2.5rem;
+    font-size: xx-large;
+}
+.bt button{
+    height: 60px;
+    width: 150px;
+    border-radius: 8px;
+    border-color: transparent;
+    font-size: large;
+}
+
+.seven{
+    color: red;
+}
+
+.na{
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: grey;
+    margin-top: 4rem;
+}
+.na h2{
+    color: black;
+}
+.blog_section .bt button:hover{
+    background-color: blue;
+}
+.product_two{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 4rem;
+    padding-right: 4rem; 
+    margin-bottom: 1rem;
+    flex-wrap: wrap;      
+}
+
+.abt1{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    margin-top: 3rem;
+    flex-wrap: wrap;
+    
+}
+.crazy{
+    background-image: url(./img/banner/b17.jpg);
+    background-repeat: no-repeat;
+    color: white; 
+    background-size: 100%; 
+    width: 400px;
+    padding-left: 1rem;
+    padding-top: 4rem;
+    margin-bottom: 1rem;
+    height: 200px;
+    
+}
+.summer{
+    background-image: url(./img/banner/b10.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+    width: 450px;
+    padding-left: 1rem;
+    padding-top: 4rem;
+    margin-bottom: 1rem;
+    height: 200px;
+    
+}
+.abt_p{
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    margin-top: 12px;
+    
+}
+
+.sea{
+    background-image: url(./img/banner/b7.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+    width: 350px;
+    padding-left: 1rem;
+    padding-top: 4rem;
+    margin-bottom: 1rem;
+    height: 150px;
+    
+}
+
+.new{
+    background-image: url(./img/banner/b4.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+    width: 350px;
+    padding-left: 1rem;
+    padding-top: 4rem;
+    margin-bottom: 1rem;
+    height: 150px;
+    
+}
+
+.dre{
+    background-image: url(./img/banner/b18.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+    width: 330px;
+    padding-left: 1rem;
+    padding-top: 4rem;
+    margin-bottom: 1rem;
+    height: 150px;
+
+}
+.bob{
+    color: red;
+}
+.foot_sign{
+    background-image: url(./img/banner/b14.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    background-color: navy;
+    padding-top: 1rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    color: white;
+}
+.spe{
+    color: gold;
+}
+
+.up{
+    background-color: darkcyan; 
+    color: white;
+    width: 70px;
+    height: 40px;
+    border-color: transparent;
+    margin: 0px;
+    
+}
+
+input{
+    width: 400px;
+    height: 35px;
+    padding-left: 2rem;
+}
+.sign_email{
+    display: flex;
+    gap: 0px;
+    line-height: 1rem;
+}
+.contact_section .up button:hover{
+    background-color: blue;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    margin-top: 2rem;
+    line-height: 1.5rem;
+}
+.install{
+    display: flex;
+    gap: 2px;
+}
+.pix{
+    border: solid;
+    border-color: darkcyan;
+    border-radius: 12px;
+    
+}
+.copy{
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+
+
+
+
+
+
+@media(max-width: 600px){
+    .nav_list li{
+        display: none;
+    }
+    .home_section{
+            background-image: url(./img/hero4.png);
+            display: flex;
+            justify-content: space-between;
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 90vh; 
+            background-position: 55%;
+    }
+    .con2{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-left: 2rem;
+            padding-right: 2rem;
+            flex-wrap: wrap;  
+    }
+    .shop1{
+        margin-top: 1rem;
+    }
+
+    .products{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 4rem;
+        padding-right: 4rem; 
+        margin-bottom: 1rem; 
+        flex-wrap: wrap;     
+    }
+    .product_two{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 4rem;
+        padding-right: 4rem;  
+        margin-bottom: 1rem; 
+        flex-wrap: wrap;    
+    }
+    .ban{
+        background-image: url(./img/banner/b2.jpg);
+        background-repeat: no-repeat;
+        color: white; 
+        background-size: 100%; 
+        width: 100%;
+        padding-top: 4rem;
+        margin-bottom: 1rem;
+        height: 200px;
+        justify-content: center;
+    
+    }
+    
+    .crazy{
+        background-image: url(./img/banner/b17.jpg);
+        background-repeat: no-repeat;
+        color: white; 
+        background-size: 100%;
+        width: 400px;
+        padding-left: 1rem;
+        padding-top: 4rem;
+        height: 30%;
+        justify-content: center;
+    }
+    .summer{
+        background-image: url(./img/banner/b10.jpg);
+        background-repeat: no-repeat;
+        background-size: 90%;
+        color: white;
+        width: 400px;
+        padding-left: 1rem;
+        padding-top: 4rem;
+        height: 30%;
+        justify-content: center;
+    }
+    .sea{
+        background-image: url(./img/banner/b7.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        color: white;
+        width: 350px;
+        padding-left: 1rem;
+        padding-top: 4rem;
+        margin-bottom: 1rem;
+        height: 25%;
+        justify-content: center;
+        
+    }
+    .new{
+        background-image: url(./img/banner/b4.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        color: white;
+        width: 350px;
+        padding-left: 1rem;
+        padding-top: 4rem;
+        margin-bottom: 1rem;
+        height: 25%;
+        justify-content: center;
+        
+    }
+    .dre{
+        background-image: url(./img/banner/b18.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        color: white;
+        width: 350px;
+        padding-left: 1rem;
+        padding-top: 4rem;
+        margin-bottom: 1rem;
+        height: 25%;
+        justify-content: center;
+    
+    }
+    .foot_sign{
+        background-image: url(./img/banner/b14.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 70px;
+        display: flex;
+        justify-content: space-between;
+        background-color: navy;
+        padding-top: 1rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        color: white;
+        justify-content: center;
+    }
+    .up{
+        background-color: darkcyan; 
+        color: white;
+        width: 40px;
+        height: 40px;
+        border-color: transparent;
+        margin: 0px;
+        
+    }
+    
+    input{
+        width: 90px;
+        height: 50px;
+        padding-left: 2rem;
+    }
+    .sign_email{
+        display: flex;
+        gap: 0px;
+        line-height: 1rem;
+        justify-content: center;
+    }
+    .bottom{
+        display: flex;
+        justify-content: center;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        margin-top: 2rem;
+        line-height: 1.5rem;
+        flex-direction: column;
+    }
+    .install{
+        display: flex;
+        gap: 2px;
+        justify-content: center;
+    }
+    .copy{
+        text-align: center;
+        margin-bottom: 2rem;
+        margin-top: 1rem;
+        justify-content: center;
+    }
+    
+}
